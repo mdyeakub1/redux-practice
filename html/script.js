@@ -190,3 +190,4 @@ const render = () => {
 
 //render the initial value 
 render()
+store.subscribe(render)
